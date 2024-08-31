@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(118, 221, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  /*border radious k liye   */
+}
+#pannel{
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#toppanel{
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(30, 118, 30);
+}
+.elem{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box{
+    color: rgb(97, 180, 97);
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#btmpannel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    gap: 10px;
+
+}
+.bubble{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    columns: #fff;
+    font-weight: 500;
+  
+    border-radius: 50px;
+}
+.bubble:hover{
+cursor: pointer;
+background-color: rgb(37, 146, 110);
+}
